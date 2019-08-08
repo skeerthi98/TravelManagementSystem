@@ -82,4 +82,7 @@ function save(at) {
   log += (log ? ' ,' : '{"time":'+ t_0 +'\n,"head":\n '+ head +'\n,"data":\n [')
        + '[' + lat +','+ lng +','+ pre +','+ time +']\n';
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
