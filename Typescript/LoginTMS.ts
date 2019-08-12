@@ -1,7 +1,7 @@
 class LoginTMS{
     UserName:String;
     Password:String;
-    LoginTMS(){
+    constructor(){
         this.UserName ="";
         this.Password ="";
     }
