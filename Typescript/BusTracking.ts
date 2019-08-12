@@ -10,7 +10,7 @@ class BusTracking
     static getPassengerLocation():string{
         return "gets the Curren tLocation of passenger";
     }
-    static showPathInBetween():string{
+    showPathInBetween():string{
         BusTracking.getBusCurrentLocation();
         BusTracking.getPassengerLocation();
         return "gets the Curren tLocation of passenger";
@@ -21,4 +21,4 @@ class BusTracking
 var obj = new BusTracking();
 console.log(BusTracking.getBusCurrentLocation());
 console.log(BusTracking.getPassengerLocation());
-console.log(BusTracking.showPathInBetween());
+console.log(obj.showPathInBetween());
