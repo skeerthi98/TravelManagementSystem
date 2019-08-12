@@ -1,0 +1,13 @@
+import {IShape} from './tasknew';
+import {rect} from './rec';
+import {cir} from './cir';
+import {square} from './square';
+var cobj=new cir(5);
+cobj.Draw();
+console.log("area of circle:"+cobj.Area());
+var robj=new rect(5,10);
+robj.Draw();
+console.log("area of rct:"+robj.Area());
+var sobj=new square(5);
+sobj.Draw();
+console.log("area of square:"+sobj.Area());
