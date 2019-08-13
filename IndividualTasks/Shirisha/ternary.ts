@@ -11,5 +11,5 @@ console.log((this.a>this.b)?"yes":"no");
 }
     var op=new ternary_op();
 console.log(op.condition());
-console.log(op.a);
-console.log(op.b);
+//console.log(op.a);
+//console.log(op.b);
