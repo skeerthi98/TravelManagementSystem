@@ -15,7 +15,6 @@ Conditional (or ternary) Operators (?:)
 String Operators (+,+=)
 typeof, yield, void, new, instanceof, in, delete
 
-
 Typescript operators:
 
 Arithmetic operators (+,-,*,/,%,++,--)
@@ -28,7 +27,7 @@ String operator (+,+=)
 Type Operator (typeof, instanceof)
 negation operator (-), Spread Operator(...)
 
-
+No difference in operators available in Javascript and Typescript.
 
 
 2. Read about looping & conditional constructs in Javascript Vs Typescript. Come out with the missing operators.
@@ -45,19 +44,8 @@ conditional constructs: (if-else,switch)
 
 looping constructs: (for,for-in,for-of,while,do-while)
 
+for-of loop is missing in Javascript.
 
 3. Read through VCS & Git.
 
 https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-
- 
-
-Practically working on topics covered.
-
-1. Create a simple program using the ternary operators in Typescript
-
-2. Use the dummy projects given to each team which was used for Git & VCS session.
-
-3. Convert all the OOJS assignments to Typescript for the projects allocated to each team.
-
-4. Push to Git repository
