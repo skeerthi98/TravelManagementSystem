@@ -6,6 +6,7 @@ import {WelcomeCompnent} from '/welcome/welcome.component';
 import { RegisterComponent } from './register/register.component';
 import { TrackingComponent } from './tracking/tracking.component';
 import { LoginComponent } from './login/login.component';
+import {FoodComponent} from './food/food.component';
 
 //if ("path"=="about"){"component":"AboutComponent"}
 
@@ -17,6 +18,7 @@ export const myRouteConfig:Routes =[
   {path:"login",component:LoginComponent},
   {path:"tracking",component:TrackingComponent},
   {path:"main",component:MainComponent},
+   {path:"food",component:FoodComponent},
   {path:"**",component:WelcomeComponent}]; //any thing not equal to the above ones, we use **
 
 @NgModule({
