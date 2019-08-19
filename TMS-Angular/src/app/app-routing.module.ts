@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router'
-import { AboutComponent } from './about/about.component';
-import { ProductsComponent } from './products/products.component';
-import { ErrorComponent } from './error/error.component';
+import { MainComponent } from './main/main.component';
+
+import { RegisterComponent } from './register/register.component';
 import { Tracking } from './tracking/tracking.component';
-import { LoginComponent } from './error/login.component';
+import { LoginComponent } from './login/login.component';
 
 //if ("path"=="about"){"component":"AboutComponent"}
 
