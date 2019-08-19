@@ -1,18 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router'
-import { AboutComponent } from './about/about.component';
-import { ProductsComponent } from './products/products.component';
-import { ErrorComponent } from './error/error.component';
+import { MainComponent } from './main/main.component';
+import {WelcomeCompnent} from '/welcome/welcome.component';
+import { RegisterComponent } from './register/register.component';
+import { TrackingComponent } from './tracking/tracking.component';
+import { LoginComponent } from './login/login.component';
 
 //if ("path"=="about"){"component":"AboutComponent"}
 
 export const myRouteConfig:Routes =[
   //if no parameters are passed after localhost
-  {path:'',redirectTo:'products',pathMatch:'full'} //plese match full path after localhost
-  ,{path:"about",component:AboutComponent} //passing parameter to url we use :
-  ,{path:"products",component:ProductsComponent},
-  {path:"**",component:ErrorComponent}]; //any thing not equal to the above ones, we use **
+  {path:'',redirectTo:'welcome',pathMatch:'full'} //plese match full path after localhost
+  ,{path:"welcome",component:WelcomeComponent} //passing parameter to url we use :
+  ,{path:"register",component:RegisterComponent},
+  {path:"login",component:LoginComponent},
+  {path:"tracking",component:TrackingComponent},
+  {path:"main",component:MainComponent},
+  {path:"**",component:WelcomeComponent}]; //any thing not equal to the above ones, we use **
 
 @NgModule({
   declarations: [],
