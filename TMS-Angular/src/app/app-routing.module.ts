@@ -4,6 +4,8 @@ import {RouterModule, Routes} from '@angular/router'
 import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 import { ErrorComponent } from './error/error.component';
+import { Tracking } from './tracking/tracking.component';
+import { LoginComponent } from './error/login.component';
 
 //if ("path"=="about"){"component":"AboutComponent"}
 
@@ -12,6 +14,7 @@ export const myRouteConfig:Routes =[
   {path:'',redirectTo:'products',pathMatch:'full'} //plese match full path after localhost
   ,{path:"about",component:AboutComponent} //passing parameter to url we use :
   ,{path:"products",component:ProductsComponent},
+  {path:"login",component:LoginComponent},
   {path:"**",component:ErrorComponent}]; //any thing not equal to the above ones, we use **
 
 @NgModule({
