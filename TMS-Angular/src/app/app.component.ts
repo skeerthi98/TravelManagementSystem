@@ -31,4 +31,9 @@ export class AppComponent {
   {
     this.check="home";
   }
+  Food()
+  {
+    console.log("In Food");
+    this.check="food";
+  }
 }

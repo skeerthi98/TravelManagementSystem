@@ -26,6 +26,7 @@
 						<li><button class="t" (click)="Login()">Login</button></li>
 					<li><button class="t" (click)="Register()">Signup</button></li>
 					<li><button class="t" (click)="Track()">Track</button></li>
+					<li><button class="t"(click)="Food()">Order Food</button></li>
 				</ul>
 			</div>
 		</div>
@@ -46,7 +47,9 @@
 			<li *ngSwitchCase ="'home'">
 					<app-welcome></app-welcome>
 			</li>
-            
+            <li *ngSwitchCase ="'food'">
+                    <app-food></app-food>
+            </li>
     </ul>
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

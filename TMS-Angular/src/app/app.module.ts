@@ -9,6 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MainComponent } from './main/main.component';
 import { TrackingComponent } from './tracking/tracking.component';
+import {FoodComponent} from './food/food.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TrackingComponent } from './tracking/tracking.component';
     RegisterComponent,
     WelcomeComponent,
     MainComponent,
-    TrackingComponent
+    TrackingComponent,
+	FoodComponent
   ],
   imports: [
     BrowserModule,
