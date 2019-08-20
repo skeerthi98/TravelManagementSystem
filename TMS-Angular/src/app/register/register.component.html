@@ -25,4 +25,8 @@ placeholder="Repeat Password" name="psw-repeat" required><br>
 (click)="Register(Username,Email,Password,RPassword)">
 Register</button>
 </form>
-
+<ul *ngFor="let item of response">
+    <li>
+        {{item.name}}
+    </li>
+    </ul>
